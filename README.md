@@ -25,22 +25,21 @@ This Flask-based web app enables AI-powered diagnosis from medical images (MRI, 
 
 ## 📁 Folder Structure
 
-project/
-│
+.
+├── app.py                      # Main Flask app
+├── models_collect/            # Folder containing trained .h5 models
 ├── static/
-│ ├── condition/ # Brain MRI images
-│ ├── skin/ # Chest X-ray images
-│ └── bone/ # Bone fracture images
-│
+│   ├── condition/             # Uploaded brain MRI images
+│   ├── skin/                  # Uploaded chest X-ray images
+│   └── bone/                  # Uploaded bone X-ray images
 ├── templates/
-│ ├── home.html
-│ ├── image.html
-│ ├── xray.html
-│ ├── fracture.html
-│ └── report_reader.html
-│
-├── app.py # Main Flask application
-└── models_collect/ # Pre-trained model files (.h5)
+│   ├── home.html              # Homepage
+│   ├── image.html             # Brain tumor result
+│   ├── xray.html              # Pneumonia result
+│   ├── fracture.html          # Fracture result
+│   └── report_reader.html     # PDF report analyzer
+└── README.md                  # This file
+
 
 
 ---
