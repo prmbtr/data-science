@@ -24,7 +24,7 @@ app.config['UPLOAD_FOLDER'] = 'static/condition'
 app.config['UPLOAD_FOLDER'] = 'static/skin'
 app.config['UPLOAD_FOLDER'] = 'static/bone'
 
-genai.configure(api_key="AIzaSyAUHL4WZ7xtkc4cz5AuiFA_-U1U_T_pLTk")
+genai.configure(api_key="Your Api Key")
 
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 
